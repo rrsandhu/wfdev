@@ -31,7 +31,7 @@ export default function JoinSection() {
             href="/careers"
             className="inline-block bg-gray-900 text-white px-8 py-4 text-sm font-semibold uppercase tracking-wider hover:bg-gray-700 transition-colors"
           >
-            View Open Positions
+            Careers
           </a>
         </div>
       </div>
