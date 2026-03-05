@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  /* Design tokens */
+  --text: #111318;
+  --muted: #6c7280;
+  --surface: #f8fafc;
+  --border: rgba(0, 0, 0, 0.07);
+  --shadow-sm: 0 2px 16px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 40px rgba(0, 0, 0, 0.10);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-manrope), system-ui, -apple-system, sans-serif;
+    color: var(--text);
+  }
+}
