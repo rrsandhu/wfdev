@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.wfdev.ca/sitemap.xml",
+    sitemap: "https://www.westfraserdev.ca/sitemap.xml",
   };
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.wfdev.ca";
+  const base = "https://www.westfraserdev.ca";
 
   const staticPages = [
     "",

@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     "construction company BC",
     "West Fraser Developments",
   ],
-  metadataBase: new URL("https://www.wfdev.ca"),
+  metadataBase: new URL("https://www.westfraserdev.ca"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://www.wfdev.ca",
+    url: "https://www.westfraserdev.ca",
     siteName: "West Fraser Developments",
     title: "West Fraser Developments | Metro Vancouver Real Estate",
     description:
