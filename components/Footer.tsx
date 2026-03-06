@@ -55,7 +55,7 @@ export default function Footer() {
                 Company
               </h4>
               <ul className="space-y-2 text-sm mb-8">
-                {["About", "Careers", "Customer Service", "Contact"].map((item) => (
+                {["Careers", "Customer Service", "Contact"].map((item) => (
                   <li key={item}>
                     <Link
                       href={`/${item.toLowerCase().replace(/\s+/g, "-")}`}
