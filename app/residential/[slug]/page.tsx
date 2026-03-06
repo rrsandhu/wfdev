@@ -83,8 +83,8 @@ export default async function ProjectPage({
             { label: "Type", value: project.type },
             { label: "Homes", value: project.units },
             { label: "Neighbourhood", value: project.neighbourhood },
-            { label: "Completed", value: project.year },
-          ].map((s) => (
+            { label: "Year", value: project.year },
+          ].filter((s) => s.value).map((s) => (
             <div key={s.label} className="bg-gray-900 py-7 px-6 text-center">
               <div className="text-[11px] uppercase tracking-[0.14em] text-gray-500 font-semibold mb-1.5">
                 {s.label}
@@ -140,7 +140,7 @@ export default async function ProjectPage({
                   { label: "Year", value: project.year },
                   { label: "Address", value: project.address ?? project.neighbourhood },
                   { label: "Pricing", value: project.priceFrom },
-                ].map((d) => (
+                ].filter((d) => d.value).map((d) => (
                   <div key={d.label} className="flex justify-between gap-4 text-[13px] border-b border-gray-50 pb-4">
                     <dt className="text-gray-400 font-medium">{d.label}</dt>
                     <dd className="text-[#111318] font-semibold text-right">{d.value}</dd>

@@ -57,9 +57,9 @@ export default function RentalsPage() {
           <div>
             <p className="text-gray-500 text-lg leading-relaxed mb-6">
               West Fraser Developments's purpose-built rental communities offer Metro Vancouver
-              residents professionally managed, high-quality homes with no intention
-              to sell. When you rent with us, you're not just a tenant — you're a
-              valued resident in a community we're committed to for the long term.
+              residents professionally managed, high-quality homes. When you rent with us,
+              you're not just a tenant — you're a valued resident in a community we're
+              committed to for the long term.
             </p>
             <ul className="space-y-2">
               {["Professional on-site property management", "Responsive maintenance team", "Secure and well-maintained buildings", "No fixed-term lease required after first year"].map((item) => (

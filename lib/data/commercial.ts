@@ -41,13 +41,13 @@ export const commercialProperties: CommercialProperty[] = [
   {
     id: "85-schooner",
     name: "85 Schooner",
-    location: "Delta, BC",
+    location: "Coquitlam, BC",
     type: "Industrial / Warehouse",
     size: "Commercial Facility",
-    year: "2010",
+    year: "2001",
     status: "OPEN",
     statusColor: "bg-green-700",
-    address: "85 Schooner St, Delta, BC",
+    address: "85 Schooner St, Coquitlam, BC",
     anchor: "Industrial · Commercial",
 
     // Card thumbnail
@@ -82,7 +82,7 @@ export const commercialProperties: CommercialProperty[] = [
     location: "Surrey, BC",
     type: "Commercial / Industrial",
     size: "Commercial Facility",
-    year: "2010",
+    year: "2007",
     status: "OPEN",
     statusColor: "bg-green-700",
     address: "13070 115 Ave, Surrey, BC",
@@ -122,7 +122,7 @@ export const commercialProperties: CommercialProperty[] = [
     location: "Surrey, BC",
     type: "Retail Shopping Centre",
     size: "Neighbourhood Centre",
-    year: "1993",
+    year: "",
     status: "OPEN",
     statusColor: "bg-green-700",
     address: "Surrey, BC",
@@ -189,7 +189,7 @@ export const commercialProperties: CommercialProperty[] = [
     location: "Surrey, BC",
     type: "Commercial / Industrial",
     size: "Commercial Facility",
-    year: "2010",
+    year: "",
     status: "OPEN",
     statusColor: "bg-green-700",
     address: "7599 King George Blvd, Surrey, BC",
@@ -214,6 +214,114 @@ export const commercialProperties: CommercialProperty[] = [
       "/7599%20King%20George/photo-1.jpg",
       "/7599%20King%20George/photo-2.jpg",
       "/7599%20King%20George/photo-3.jpg",
+    ],
+  },
+
+  // ── MISSION VILLAGE ───────────────────────────────────────────────────────
+  {
+    id: "mission-village-commercial",
+    name: "Mission Village",
+    location: "Mission, BC",
+    type: "Mixed-Use Development",
+    size: "30,000 sq ft Commercial",
+    year: "2025",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "Downtown Mission, Mission, BC",
+    anchor: "Mixed-Use · Ground Floor Commercial",
+
+    img: "/million%20village/photo-1.jpeg",
+
+    description:
+      "Four-storey mixed-use building in downtown Mission with 30,000 sq ft of commercial space on the main floor and residential suites above.",
+
+    overview:
+      "Mission Village is a four-storey mixed-use development by West Fraser Developments in downtown Mission, featuring 30,000 square feet of commercial space on the main floor with residential suites above. The building brings vibrant ground-floor commercial activation to the heart of Mission City, serving local businesses and the surrounding community.",
+
+    features: [
+      "30,000 sq ft of ground-floor commercial space",
+      "Four-storey mixed-use building",
+      "Downtown Mission location",
+      "Residential suites above commercial",
+      "High-visibility main street location",
+    ],
+
+    gallery: [
+      "/million%20village/photo-1.jpeg",
+      "/million%20village/photo-2.jpeg",
+      "/million%20village/photo-3.jpeg",
+    ],
+  },
+
+  // ── RHODES ON 41ST ────────────────────────────────────────────────────────
+  {
+    id: "rhodes-commercial",
+    name: "Rhodes On 41st",
+    location: "East Vancouver, BC",
+    type: "Mixed-Use Development",
+    size: "Main Floor Commercial",
+    year: "2014",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "5711 Rhodes Street, Vancouver, BC",
+    anchor: "Mixed-Use · Ground Floor Commercial",
+
+    img: "/Rhodes%20on%2041st/photo-1.jpg",
+
+    description:
+      "Four-storey mixed-use building in East Vancouver with main floor commercial space and 41 residential suites above at 5711 Rhodes Street.",
+
+    overview:
+      "Rhodes On 41st is a four-storey mixed-use building developed by West Fraser Developments at 5711 Rhodes Street in East Vancouver, featuring main floor commercial space with 41 residential suites above. The building provides vibrant ground-floor commercial space in a well-connected East Vancouver neighbourhood.",
+
+    features: [
+      "Main floor commercial space",
+      "Four-storey mixed-use building",
+      "East Vancouver location",
+      "41 residential suites above",
+      "5711 Rhodes Street, Vancouver",
+    ],
+
+    gallery: [
+      "/Rhodes%20on%2041st/photo-1.jpg",
+      "/Rhodes%20on%2041st/photo-2.jpg",
+      "/Rhodes%20on%2041st/photo-3.jpg",
+    ],
+  },
+
+  // ── THE GROVE ─────────────────────────────────────────────────────────────
+  {
+    id: "the-grove-commercial",
+    name: "The Grove",
+    location: "Surrey, BC",
+    type: "Mixed-Use Development",
+    size: "28,000 sq ft Commercial",
+    year: "",
+    status: "COMING SOON",
+    statusColor: "bg-blue-700",
+    address: "15622 104 Avenue, Surrey, BC",
+    anchor: "Mixed-Use · Ground Floor Commercial",
+
+    img: "/The%20Grove/photo-1.jpg",
+
+    description:
+      "Upcoming mixed-use development at 15622 104 Avenue in Surrey with 28,000 sq ft of ground-floor commercial space and 133 rental suites above.",
+
+    overview:
+      "The Grove is an upcoming mixed-use development by West Fraser Developments at 15622 104 Avenue in Surrey. The building will feature 28,000 square feet of ground-floor commercial space with 133 rental suites above, creating a dynamic live-work-shop community in a well-established Surrey neighbourhood.",
+
+    features: [
+      "28,000 sq ft of ground-floor commercial space",
+      "133 rental suites above",
+      "Mixed-use live-work-shop community",
+      "Surrey location near transit",
+      "15622 104 Avenue, Surrey",
+    ],
+
+    gallery: [
+      "/The%20Grove/photo-1.jpg",
+      "/The%20Grove/photo-2.jpg",
+      "/The%20Grove/photo-3.jpg",
     ],
   },
 

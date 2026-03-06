@@ -56,7 +56,6 @@ export default function CommercialPage() {
       <section className="bg-gray-900 py-8">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { value: "30+", label: "Properties & Projects" },
             { value: "200,000+", label: "Sq Ft Commercial" },
             { value: "30+", label: "Years in BC" },
             { value: "5+", label: "Metro Vancouver Municipalities" },
@@ -122,7 +121,7 @@ export default function CommercialPage() {
               <h2 className="text-2xl md:text-4xl font-bold text-gray-900">Featured Properties</h2>
             </div>
           </div>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {properties.map((p) => (
               <Link
                 key={p.id}
@@ -145,7 +144,7 @@ export default function CommercialPage() {
                     <p className="text-[11px] text-gray-400">{p.size}</p>
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">{p.name}</h3>
-                  <p className="text-sm text-gray-400 mb-3">{p.location} · {p.year}</p>
+                  <p className="text-sm text-gray-400 mb-3">{p.location}{p.year ? ` · ${p.year}` : ""}</p>
                   <p className="text-sm text-gray-500 leading-relaxed mb-4">{p.description}</p>
                   <div className="flex items-center justify-between">
                     <p className="text-xs text-gray-400 font-medium">{p.anchor}</p>

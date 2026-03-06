@@ -177,15 +177,13 @@ export const projects: Project[] = [
     img: "/Surrey%20City%20Centre/photo-1.jpeg",
 
     description:
-      "An upscale residential development of 115 suites in the heart of Surrey City Centre — featuring two separate buildings, north and south, with over 200,000 sq ft of residential space.",
+      "An upscale residential development of 115 suites in the heart of Surrey City Centre — steps from SkyTrain, restaurants, and shopping.",
 
     overview:
-      "Surrey City Centre is an upscale West Fraser Developments residential community currently under construction in the heart of Surrey. The project spans over 200,000 square feet across two separate buildings — north and south — offering 115 suites in one of Metro Vancouver's most dynamic urban centres. Located steps from restaurants, shopping, and entertainment, residents will enjoy the best of Surrey City Centre living with quick access to SkyTrain and the surrounding amenities.",
+      "Surrey City Centre is an upscale West Fraser Developments residential community currently under construction in the heart of Surrey. The building offers 115 beautifully appointed suites in one of Metro Vancouver's most dynamic urban centres. Located steps from restaurants, shopping, and entertainment, residents will enjoy the best of Surrey City Centre living with quick access to SkyTrain and the surrounding amenities.",
 
     features: [
       "115 residential suites",
-      "Two buildings — north and south",
-      "Over 200,000 sq ft of residential space",
       "Upscale finishes throughout",
       "Heart of Surrey City Centre",
       "Steps to restaurants, shopping, and entertainment",
@@ -222,13 +220,12 @@ export const projects: Project[] = [
 
     // Full description (shown on project detail page)
     overview:
-      "Radley is West Fraser Developments' newest condominium community, rising in the heart of Surrey City Centre — one of Metro Vancouver's fastest-growing urban centres. With 193 thoughtfully designed suites ranging from studios to three-bedrooms, Radley offers an unmatched combination of contemporary design, premium finishes, and walkable urban living. Residents enjoy direct access to King George SkyTrain, SFU Surrey, Central City Mall, and an ever-expanding restaurant and retail scene. Whether you're a first-time buyer, downsizer, or investor, Radley represents the next chapter of life in Surrey.",
+      "Radley rises in the heart of Surrey City Centre — one of Metro Vancouver's fastest-growing urban centres. With 193 thoughtfully designed suites ranging from studios to three-bedrooms, Radley offers an unmatched combination of contemporary design, premium finishes, and walkable urban living. Residents enjoy access to SFU Surrey, Central City Mall, and an ever-expanding restaurant and retail scene. Whether you're a first-time buyer, downsizer, or investor, Radley represents the next chapter of life in Surrey.",
 
     // Bullet points (shown on project detail page)
     features: [
       "193 condominium suites",
       "Studio, 1-, 2-, and 3-bedroom layouts",
-      "Steps to King George SkyTrain Station",
       "Walking distance to SFU Surrey, restaurants, and retail",
       "Premium appliance packages and quartz countertops",
       "Rooftop amenity deck with views",
@@ -249,29 +246,27 @@ export const projects: Project[] = [
   {
     id: "everett",
     name: "Everett",
-    location: "Surrey, BC",
-    neighbourhood: "Whalley",
+    location: "Vancouver, BC",
+    neighbourhood: "River District",
     type: "Condominiums",
-    units: "Residential Tower",
-    year: "2023",
+    units: "Residential",
+    year: "2025",
     priceFrom: "Contact Us",
     status: "COMPLETE",
     statusColor: "bg-green-700",
-    address: "13070 – 115th Avenue, Surrey, BC",
+    address: "3125 Pierview Cres, Vancouver, BC",
 
     img: "/Everett/photo-1.jpg",
 
     description:
-      "A striking modern tower in Surrey offering open-concept living with premium finishes. Located at 13070–115th Avenue, Surrey, BC.",
+      "A striking modern residential building in Vancouver's River District offering open-concept living with premium finishes. Located at 3125 Pierview Cres, Vancouver, BC.",
 
     overview:
-      "Everett is a striking modern residential tower in the heart of Surrey's Whalley neighbourhood, delivering open-concept suites with premium finishes across a full high-rise building. Each home features 9-foot ceilings, engineered hardwood flooring, and a designer kitchen package, with layouts thoughtfully configured for both everyday living and entertaining. Located at 13070–115th Avenue, residents are steps from shopping, dining, transit, and green space — everything a connected urban lifestyle demands.",
+      "Everett is a striking modern residential building in Vancouver's River District, delivering open-concept suites with premium finishes. Each home features 9-foot ceilings and a designer kitchen package, with layouts thoughtfully configured for both everyday living and entertaining. Located at 3125 Pierview Cres, residents are steps from shopping, dining, transit, and the waterfront green space of River District — everything a connected urban lifestyle demands.",
 
     features: [
-      "Modern high-rise residential tower",
       "Open-concept floor plans",
       "9-foot ceilings throughout",
-      "Engineered hardwood floors",
       "Designer kitchen with premium appliances",
       "In-suite laundry",
       "Secure underground parking",
@@ -293,7 +288,7 @@ export const projects: Project[] = [
     location: "Mission, BC",
     neighbourhood: "Downtown Mission",
     type: "Condominiums",
-    units: "5-Storey Residential",
+    units: "Residential",
     year: "2025",
     priceFrom: "Contact Us",
     status: "COMPLETE",
@@ -303,13 +298,14 @@ export const projects: Project[] = [
     img: "/million%20village/photo-1.jpeg",
 
     description:
-      "A 5-storey residential building in the centre of Mission featuring modern yet familiar comfort design — built for the community to enjoy.",
+      "A 4-storey mixed-use building in the centre of Mission with 30,000 sq ft of commercial space on the main floor — built for the community to enjoy.",
 
     overview:
-      "Mission Village is West Fraser Developments' newest project in the Fraser Valley, bringing modern, community-focused residential living to the heart of downtown Mission. The five-storey building offers a range of suites designed with everyday livability in mind — warm material palettes, functional layouts, and modern comfort throughout. Situated steps from Mission City's vibrant downtown core, residents are close to local shops, restaurants, the West Coast Express, and the natural beauty of the surrounding region.",
+      "Mission Village is West Fraser Developments' project in the Fraser Valley, bringing modern, community-focused residential living to the heart of downtown Mission. The four-storey building features 30,000 square feet of commercial space on the main floor with residential suites above, designed with everyday livability in mind — warm material palettes, functional layouts, and modern comfort throughout. Situated steps from Mission City's vibrant downtown core, residents are close to local shops, restaurants, the West Coast Express, and the natural beauty of the surrounding region.",
 
     features: [
-      "5-storey residential building",
+      "4-storey mixed-use building",
+      "30,000 sq ft of commercial space on main floor",
       "Studios, 1-bedroom, and 2-bedroom suites",
       "Modern interior design with warm finishes",
       "In-suite laundry",
@@ -374,7 +370,7 @@ export const projects: Project[] = [
     neighbourhood: "Sapperton",
     type: "Condominiums",
     units: "26 Suites",
-    year: "2013",
+    year: "2014",
     priceFrom: "Contact Us",
     status: "COMPLETE",
     statusColor: "bg-green-700",
@@ -410,33 +406,32 @@ export const projects: Project[] = [
   {
     id: "rhodes",
     name: "Rhodes On 41st",
-    location: "Vancouver, BC",
-    neighbourhood: "Oakridge",
+    location: "East Vancouver, BC",
+    neighbourhood: "East Vancouver",
     type: "Condominiums",
     units: "41 Suites",
     year: "2014",
     priceFrom: "Contact Us",
     status: "COMPLETE",
     statusColor: "bg-green-700",
-    address: "Oakridge, Vancouver, BC",
+    address: "5711 Rhodes Street, Vancouver, BC",
 
     img: "/Rhodes%20on%2041st/photo-1.jpg",
 
     description:
-      "A five-storey boutique condominium with 41 one- and two-bedroom suites featuring functional layouts, large balconies, and designer fixtures in the heart of Oakridge.",
+      "A four-storey boutique building with 41 one- and two-bedroom suites featuring functional layouts, large balconies, designer fixtures, and main floor commercial in East Vancouver.",
 
     overview:
-      "Rhodes On 41st is a boutique residential building in Vancouver's prestigious Oakridge neighbourhood — a tree-lined, walkable community undergoing rapid revitalization. The five-storey building offers 41 one- and two-bedroom suites, each featuring open-concept layouts, large balconies, designer light fixtures, and premium finishes. Situated steps from Oakridge Centre, Canada Line SkyTrain, top-rated schools, and some of Vancouver's best restaurants, Rhodes remains one of West Fraser's most coveted completed projects.",
+      "Rhodes On 41st is a boutique four-storey building in East Vancouver at 5711 Rhodes Street, featuring main floor commercial space with 41 one- and two-bedroom residential suites above. Each suite features open-concept layouts, large balconies, designer light fixtures, and premium finishes. The building combines ground-floor commercial activation with high-quality residential living in a well-connected East Vancouver neighbourhood.",
 
     features: [
       "41 condominium suites",
       "One- and two-bedroom configurations",
+      "Main floor commercial space",
       "Functional open-concept layouts",
       "Large private balconies",
       "Designer fixtures and finishes",
-      "Five-storey boutique building",
-      "Steps to Canada Line (41st Ave Station)",
-      "Walking distance to Oakridge Centre",
+      "Four-storey boutique building",
     ],
 
     gallery: [
@@ -454,7 +449,7 @@ export const projects: Project[] = [
     neighbourhood: "Surrey",
     type: "Condominiums",
     units: "Residential",
-    year: "2010",
+    year: "",
     priceFrom: "Contact Us",
     status: "COMPLETE",
     statusColor: "bg-green-700",
@@ -489,8 +484,8 @@ export const projects: Project[] = [
     location: "Surrey, BC",
     neighbourhood: "Surrey",
     type: "Condominiums",
-    units: "Residential",
-    year: "2010",
+    units: "41 Units",
+    year: "",
     priceFrom: "Contact Us",
     status: "COMPLETE",
     statusColor: "bg-green-700",

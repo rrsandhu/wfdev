@@ -45,20 +45,19 @@ export const rentals: Rental[] = [
     img: "/Surrey%20City%20Centre/photo-1.jpeg",
 
     description:
-      "An upscale rental community of 115 suites across two buildings in the heart of Surrey City Centre — steps from SkyTrain, restaurants, and shopping.",
+      "An upscale rental community of 115 suites in the heart of Surrey City Centre — steps from SkyTrain, restaurants, and shopping.",
 
     overview:
-      "Surrey City Centre is West Fraser's newest upscale rental community, currently under construction in the heart of Surrey. Spanning over 200,000 square feet across two buildings — north and south — the development offers 115 beautifully appointed suites in one of Metro Vancouver's most dynamic urban centres. Residents will enjoy premium finishes, modern layouts, and unmatched walkability to SkyTrain, dining, entertainment, and the surrounding amenities of Surrey City Centre.",
+      "Surrey City Centre is West Fraser's newest upscale rental community, currently under construction in the heart of Surrey. The building offers 115 beautifully appointed suites in one of Metro Vancouver's most dynamic urban centres. Residents will enjoy premium finishes, modern layouts, and unmatched walkability to SkyTrain, dining, entertainment, and the surrounding amenities of Surrey City Centre.",
 
     features: [
-      "115 rental suites across two buildings",
+      "115 rental suites",
       "1-, 2-, and 3-bedroom configurations",
       "Upscale interior finishes throughout",
       "In-suite laundry",
       "Secure underground parking",
       "Heart of Surrey City Centre",
       "Steps to SkyTrain and shopping",
-      "Over 200,000 sq ft of residential space",
     ],
 
     gallery: [
@@ -71,28 +70,26 @@ export const rentals: Rental[] = [
   {
     id: "everett",
     name: "Everett",
-    location: "Surrey, BC",
-    neighbourhood: "Whalley",
+    location: "Vancouver, BC",
+    neighbourhood: "River District",
     suites: "1 Bed · 2 Bed · 3 Bed",
     available: "Now Leasing",
-    address: "13070 115th Avenue, Surrey, BC",
+    address: "3125 Pierview Cres, Vancouver, BC",
 
     // Card thumbnail
     img: "/Everett/photo-1.jpg",
 
     // Short description (listing card)
     description:
-      "A striking modern residential tower in Surrey offering open-concept suites with premium finishes. Located at 13070–115th Avenue in the heart of Whalley.",
+      "A striking modern residential building in Vancouver's River District offering open-concept suites with premium finishes. Located at 3125 Pierview Cres, Vancouver.",
 
     // Full description (detail page)
     overview:
-      "Everett is a striking modern residential tower in Surrey's Whalley neighbourhood, offering open-concept suites with premium finishes and thoughtful layouts designed for everyday living. Each suite features 9-foot ceilings, engineered hardwood flooring, and a designer kitchen package. Located at 13070–115th Avenue, residents are steps from shopping, dining, transit, and green space — with quick SkyTrain access to downtown Vancouver.",
+      "Everett is a striking modern residential building in Vancouver's River District, offering open-concept suites with premium finishes and thoughtful layouts designed for everyday living. Each suite features 9-foot ceilings and a designer kitchen package. Located at 3125 Pierview Cres, residents are steps from shopping, dining, transit, and the waterfront green space of River District.",
 
     features: [
-      "Modern high-rise residential tower",
       "1-, 2-, and 3-bedroom suites",
       "Open-concept floor plans with 9-foot ceilings",
-      "Engineered hardwood floors",
       "Designer kitchen with premium appliances",
       "In-suite laundry",
       "Secure underground parking",
@@ -127,7 +124,6 @@ export const rentals: Rental[] = [
       "Mission Village is West Fraser's newest rental community in the Fraser Valley, bringing modern, community-focused residential living to the heart of downtown Mission. The five-storey building offers studios, one-bedroom, and two-bedroom suites designed with everyday livability in mind — warm material palettes, functional layouts, and modern comfort throughout. Situated steps from Mission City's vibrant downtown core, residents are close to local shops, restaurants, the West Coast Express, and the natural beauty of the surrounding region.",
 
     features: [
-      "5-storey purpose-built rental building",
       "Studio, 1-bedroom, and 2-bedroom suites",
       "Modern interior design with warm finishes",
       "In-suite laundry",

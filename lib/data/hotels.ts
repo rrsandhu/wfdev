@@ -77,11 +77,11 @@ export const hotels: Hotel[] = [
   // ── HYATT PLACE / HYATT HOUSE TORONTO ─────────────────────────────────────
   {
     id: "hyatt-toronto",
-    name: "Hyatt Place / Hyatt House Toronto",
+    name: "Hyatt Place / Hyatt House Mississauga Airport Centre",
     location: "Mississauga, ON",
     brand: "Hyatt Place + Hyatt House",
     rooms: "Dual Brand",
-    year: "2021",
+    year: "2025",
     address: "Mississauga, ON",
     bookingUrl: "https://www.hyatt.com/hyatt-place/en-US/yyzza-hyatt-place-mississauga-airport-corporate-centre",
 
@@ -227,7 +227,7 @@ export const hotels: Hotel[] = [
     location: "Estevan, SK",
     brand: "Best Western Plus",
     rooms: "Full-Service Hotel",
-    year: "2018",
+    year: "2014",
     address: "Estevan, SK",
     bookingUrl: "https://www.bestwestern.com/en_US/book/hotels-in-estevan/best-western-plus-estevan-inn-suites/propertyCode.68026.html",
 

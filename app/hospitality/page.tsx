@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: "8+", label: "Hotel Properties" },
-  { value: "900+", label: "Hotel Rooms" },
+  { value: "1,000+", label: "Hotel Rooms" },
   { value: "4", label: "Provinces" },
   { value: "15+", label: "Years in Hospitality" },
 ];
@@ -25,7 +25,7 @@ export default function HospitalityPage() {
       {/* Hero */}
       <section className="relative h-[45vh] md:h-[60vh] flex items-end overflow-hidden bg-gray-900">
         <Image
-          src="https://westfraserdev.ca/wp-content/uploads/2019/07/kelownacrop-daytime.png"
+          src="https://westfraserdev.ca/wp-content/uploads/2021/11/GT0Ub6ec.jpeg"
           alt="West Fraser Hospitality"
           fill
           className="object-cover object-center"

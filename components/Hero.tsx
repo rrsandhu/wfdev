@@ -62,7 +62,7 @@ export default function Hero() {
             to provide convenient living.
           </h1>
 
-          <p className="text-base sm:text-xl font-bold text-white/80 tracking-wide">
+          <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-white/80 tracking-wide">
             The Building Is Where It Begins
           </p>
         </div>
