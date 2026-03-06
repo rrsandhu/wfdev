@@ -93,7 +93,7 @@ export default function NewsPage() {
         </p>
         <div className="flex justify-center gap-4">
           <a
-            href="https://www.linkedin.com/company/westfraserdev"
+            href="https://www.linkedin.com/company/west-fraser-developments-ltd-/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border border-gray-900 text-gray-900 px-8 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-gray-900 hover:text-white transition-colors"
