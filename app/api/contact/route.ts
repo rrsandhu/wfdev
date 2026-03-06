@@ -1,7 +1,13 @@
-import { Resend } from "resend";
+import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 export async function POST(req: Request) {
   try {
@@ -12,9 +18,9 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    await resend.emails.send({
-      from: process.env.FROM_EMAIL ?? "onboarding@resend.dev",
-      to: "customercare@wfdev.ca",
+    const info = await transporter.sendMail({
+      from: `"West Fraser Developments" <${process.env.GMAIL_USER}>`,
+      to: "info@wfdev.ca",
       replyTo: email,
       subject: `${inquiryType} — ${firstName} ${lastName}`,
       html: `
@@ -28,9 +34,10 @@ export async function POST(req: Request) {
       `,
     });
 
+    console.log("Email sent:", info.messageId, "Response:", info.response);
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Contact form error:", err);
-    return NextResponse.json({ error: "Failed to send message" }, { status: 500 });
+    return NextResponse.json({ error: "Failed to send message", details: String(err) }, { status: 500 });
   }
 }

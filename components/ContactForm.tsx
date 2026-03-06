@@ -12,6 +12,8 @@ export default function ContactForm() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -19,16 +21,23 @@ export default function ContactForm() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const subject = encodeURIComponent(
-      `${form.inquiryType} — ${form.firstName} ${form.lastName}`
-    );
-    const body = encodeURIComponent(
-      `Name: ${form.firstName} ${form.lastName}\nEmail: ${form.email}\nPhone: ${form.phone}\nInquiry Type: ${form.inquiryType}\n\nMessage:\n${form.message}`
-    );
-    window.location.href = `mailto:customercare@wfdev.ca?subject=${subject}&body=${body}`;
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error("Failed to send");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong. Please try again or email us directly at info@wfdev.ca.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   if (submitted) {
@@ -39,11 +48,11 @@ export default function ContactForm() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-gray-900">Message prepared</h3>
+        <h3 className="text-xl font-bold text-gray-900">Message sent!</h3>
         <p className="text-gray-500 text-sm">
-          Your email client should have opened with your message addressed to{" "}
-          <span className="font-semibold text-gray-700">customercare@wfdev.ca</span>.
-          If it didn&apos;t open, please email us directly.
+          Thank you — your message has been sent to our team at{" "}
+          <span className="font-semibold text-gray-700">info@wfdev.ca</span>.
+          We&apos;ll be in touch shortly.
         </p>
         <button
           onClick={() => setSubmitted(false)}
@@ -133,11 +142,15 @@ export default function ContactForm() {
           placeholder="Tell us how we can help..."
         />
       </div>
+      {error && (
+        <p className="text-sm text-red-600">{error}</p>
+      )}
       <button
         type="submit"
-        className="w-full bg-gray-900 text-white py-4 text-sm font-semibold uppercase tracking-wider hover:bg-gray-700 transition-colors"
+        disabled={loading}
+        className="w-full bg-gray-900 text-white py-4 text-sm font-semibold uppercase tracking-wider hover:bg-gray-700 transition-colors disabled:opacity-60"
       >
-        Submit Inquiry
+        {loading ? "Sending..." : "Submit Inquiry"}
       </button>
     </form>
   );

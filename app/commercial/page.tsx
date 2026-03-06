@@ -54,7 +54,7 @@ export default function CommercialPage() {
 
       {/* Stats */}
       <section className="bg-gray-900 py-8">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-12 md:gap-24">
           {[
             { value: "200,000+", label: "Sq Ft Commercial" },
             { value: "30+", label: "Years in BC" },

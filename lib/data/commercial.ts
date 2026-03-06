@@ -37,183 +37,39 @@ import type { CommercialProperty } from "@/lib/types";
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const commercialProperties: CommercialProperty[] = [
-  // ── 85 SCHOONER ───────────────────────────────────────────────────────────
+  // ── THE GROVE ─────────────────────────────────────────────────────────────
   {
-    id: "85-schooner",
-    name: "85 Schooner",
-    location: "Coquitlam, BC",
-    type: "Industrial / Warehouse",
-    size: "Commercial Facility",
-    year: "2001",
-    status: "OPEN",
-    statusColor: "bg-green-700",
-    address: "85 Schooner St, Coquitlam, BC",
-    anchor: "Industrial · Commercial",
-
-    // Card thumbnail
-    img: "/85%20Schooner/photo-1.jpg",
-
-    // Short description (listing card)
-    description:
-      "Commercial and industrial facility at 85 Schooner Street, offering flexible space for business operations.",
-
-    // Full description (detail page)
-    overview:
-      "85 Schooner is a commercial and industrial property developed by West Fraser Developments. The facility offers flexible space suitable for a range of commercial and industrial uses, with convenient access to major transportation routes.",
-
-    features: [
-      "Commercial and industrial space",
-      "Flexible layout configurations",
-      "Convenient highway access",
-    ],
-
-    // Gallery photos — first image is the hero (spans 2 cols)
-    gallery: [
-      "/85%20Schooner/photo-1.jpg",
-      "/85%20Schooner/photo-2.jpg",
-      "/85%20Schooner/photo-3.jpg",
-    ],
-  },
-
-  // ── 13070 115 AVE ─────────────────────────────────────────────────────────
-  {
-    id: "13070-115-ave",
-    name: "13070 115 Ave",
+    id: "the-grove-commercial",
+    name: "The Grove",
     location: "Surrey, BC",
-    type: "Commercial / Industrial",
-    size: "Commercial Facility",
-    year: "2007",
-    status: "OPEN",
-    statusColor: "bg-green-700",
-    address: "13070 115 Ave, Surrey, BC",
-    anchor: "Commercial · Industrial",
-
-    // Card thumbnail
-    // To use a local photo: "/projects/commercial/13070-115-ave/hero.jpg"
-    img: "https://westfraserdev.ca/wp-content/uploads/2021/12/tr4.jpg",
-
-    // Short description (listing card)
-    description:
-      "Commercial facility at 13070 115 Ave in Surrey, BC, offering purpose-built space for commercial and industrial operations.",
-
-    // Full description (detail page)
-    overview:
-      "13070 115 Ave is a commercial and industrial property developed by West Fraser Developments in Surrey, BC. The facility is purpose-built to support commercial and industrial operations, with flexible configurations and strong access to the surrounding road network.",
-
-    features: [
-      "Purpose-built commercial and industrial facility",
-      "Flexible space configurations",
-      "Surrey location with highway access",
-    ],
-
-    // Gallery photos — first image is the hero (spans 2 cols)
-    // To use local photos: "/projects/commercial/13070-115-ave/photo-1.jpg"
-    gallery: [
-      "https://westfraserdev.ca/wp-content/uploads/2021/12/tr4.jpg",
-      "https://westfraserdev.ca/wp-content/uploads/2021/11/Warehouse_High_res_002.jpg",
-      "https://westfraserdev.ca/wp-content/uploads/2021/11/evergreen-mall-5.png",
-    ],
-  },
-
-  // ── EVERGREEN MALL ────────────────────────────────────────────────────────
-  {
-    id: "evergreen-mall",
-    name: "Evergreen Mall",
-    location: "Surrey, BC",
-    type: "Retail Shopping Centre",
-    size: "Neighbourhood Centre",
+    type: "Mixed-Use Development",
+    size: "28,000 sq ft Commercial",
     year: "",
-    status: "OPEN",
-    statusColor: "bg-green-700",
-    address: "Surrey, BC",
-    anchor: "Neighbourhood Retail · Established Tenants",
+    status: "COMING SOON",
+    statusColor: "bg-blue-700",
+    address: "15622 104 Avenue, Surrey, BC",
+    anchor: "Mixed-Use · Ground Floor Commercial",
 
-    img: "/Evergreen%20Mall/photo-1.jpg",
+    img: "/The%20Grove/photo-1.jpg",
 
     description:
-      "A well-established neighbourhood shopping centre serving the Surrey community since 1993. Anchored by essential retailers with strong foot traffic and long-term tenancies.",
+      "Upcoming mixed-use development at 15622 104 Avenue in Surrey with 28,000 sq ft of ground-floor commercial space and 133 rental suites above.",
 
     overview:
-      "Evergreen Mall is a well-established neighbourhood shopping centre that has served the Surrey community for over 30 years. Anchored by essential service retailers, the centre benefits from consistent foot traffic, a loyal local customer base, and long-term tenancies that provide stable returns. The property has undergone continuous reinvestment to maintain its position as the go-to destination for everyday shopping in the surrounding community.",
+      "The Grove is an upcoming mixed-use development by West Fraser Developments at 15622 104 Avenue in Surrey. The building will feature 28,000 square feet of ground-floor commercial space with 133 rental suites above, creating a dynamic live-work-shop community in a well-established Surrey neighbourhood.",
 
     features: [
-      "Established neighbourhood retail centre (est. 1993)",
-      "Consistent foot traffic and loyal customer base",
-      "Long-term tenancies with essential service retailers",
-      "Ample surface parking",
-      "Easy access from major roads",
-      "Proven retail location with 30+ years of operation",
+      "28,000 sq ft of ground-floor commercial space",
+      "133 rental suites above",
+      "Mixed-use live-work-shop community",
+      "Surrey location near transit",
+      "15622 104 Avenue, Surrey",
     ],
 
     gallery: [
-      "/Evergreen%20Mall/photo-1.jpg",
-      "/Evergreen%20Mall/photo-2.jpg",
-      "/Evergreen%20Mall/photo-3.jpg",
-    ],
-  },
-
-  // ── WEST FRASER BUSINESS CENTRE ───────────────────────────────────────────
-  {
-    id: "west-fraser-business-centre",
-    name: "West Fraser Business Centre",
-    location: "Surrey, BC",
-    type: "Industrial / Warehouse",
-    size: "Commercial Park",
-    year: "2021",
-    status: "OPEN",
-    statusColor: "bg-green-700",
-    address: "Surrey, BC",
-    anchor: "Industrial · Warehouse · Flex Space",
-
-    description:
-      "A modern industrial and warehouse business centre providing flexible commercial space for growing businesses. Strategically located in Surrey with excellent highway and transit access.",
-
-    overview:
-      "West Fraser Business Centre is a modern industrial and warehouse development providing flexible commercial space designed for today's growing businesses. The park offers a range of unit configurations — from smaller flex units to large-format warehouse bays — all featuring high ceilings, grade and dock loading, and ample yard space. Strategically located in Surrey with direct access to major highways, the centre is ideal for distribution, light manufacturing, and commercial operations.",
-
-    features: [
-      "Modern industrial and warehouse units",
-      "Flexible unit configurations available",
-      "High clear ceilings",
-      "Grade and dock loading doors",
-      "Ample truck court and yard space",
-      "Excellent highway and transit access",
-      "Surrey location — central to Metro Vancouver",
-    ],
-  },
-
-  // ── 7599 KING GEORGE ──────────────────────────────────────────────────────
-  {
-    id: "7599-king-george",
-    name: "7599 King George",
-    location: "Surrey, BC",
-    type: "Commercial / Industrial",
-    size: "Commercial Facility",
-    year: "",
-    status: "OPEN",
-    statusColor: "bg-green-700",
-    address: "7599 King George Blvd, Surrey, BC",
-    anchor: "Commercial · Industrial",
-
-    img: "/7599%20King%20George/photo-1.jpg",
-
-    description:
-      "Commercial and industrial facility at 7599 King George Boulevard in Surrey, BC, offering flexible space for business operations with excellent access to major routes.",
-
-    overview:
-      "7599 King George is a commercial and industrial property developed by West Fraser Developments, located on King George Boulevard in Surrey. The facility offers flexible space for a range of commercial and industrial uses, with convenient access to major transportation corridors throughout Metro Vancouver.",
-
-    features: [
-      "Commercial and industrial space",
-      "Flexible layout configurations",
-      "King George Boulevard frontage",
-      "Convenient highway access",
-    ],
-
-    gallery: [
-      "/7599%20King%20George/photo-1.jpg",
-      "/7599%20King%20George/photo-2.jpg",
-      "/7599%20King%20George/photo-3.jpg",
+      "/The%20Grove/photo-1.jpg",
+      "/The%20Grove/photo-2.jpg",
+      "/The%20Grove/photo-3.jpg",
     ],
   },
 
@@ -289,39 +145,180 @@ export const commercialProperties: CommercialProperty[] = [
     ],
   },
 
-  // ── THE GROVE ─────────────────────────────────────────────────────────────
+  // ── EVERGREEN MALL ────────────────────────────────────────────────────────
   {
-    id: "the-grove-commercial",
-    name: "The Grove",
+    id: "evergreen-mall",
+    name: "Evergreen Mall",
     location: "Surrey, BC",
-    type: "Mixed-Use Development",
-    size: "28,000 sq ft Commercial",
+    type: "Retail Shopping Centre",
+    size: "Neighbourhood Centre",
     year: "",
-    status: "COMING SOON",
-    statusColor: "bg-blue-700",
-    address: "15622 104 Avenue, Surrey, BC",
-    anchor: "Mixed-Use · Ground Floor Commercial",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "Surrey, BC",
+    anchor: "Neighbourhood Retail · Established Tenants",
 
-    img: "/The%20Grove/photo-1.jpg",
+    img: "/Evergreen%20Mall/photo-1.jpg",
 
     description:
-      "Upcoming mixed-use development at 15622 104 Avenue in Surrey with 28,000 sq ft of ground-floor commercial space and 133 rental suites above.",
+      "A well-established neighbourhood shopping centre serving the Surrey community since 1993. Anchored by essential retailers with strong foot traffic and long-term tenancies.",
 
     overview:
-      "The Grove is an upcoming mixed-use development by West Fraser Developments at 15622 104 Avenue in Surrey. The building will feature 28,000 square feet of ground-floor commercial space with 133 rental suites above, creating a dynamic live-work-shop community in a well-established Surrey neighbourhood.",
+      "Evergreen Mall is a well-established neighbourhood shopping centre that has served the Surrey community for over 30 years. Anchored by essential service retailers, the centre benefits from consistent foot traffic, a loyal local customer base, and long-term tenancies that provide stable returns. The property has undergone continuous reinvestment to maintain its position as the go-to destination for everyday shopping in the surrounding community.",
 
     features: [
-      "28,000 sq ft of ground-floor commercial space",
-      "133 rental suites above",
-      "Mixed-use live-work-shop community",
-      "Surrey location near transit",
-      "15622 104 Avenue, Surrey",
+      "Established neighbourhood retail centre (est. 1993)",
+      "Consistent foot traffic and loyal customer base",
+      "Long-term tenancies with essential service retailers",
+      "Ample surface parking",
+      "Easy access from major roads",
+      "Proven retail location with 30+ years of operation",
     ],
 
     gallery: [
-      "/The%20Grove/photo-1.jpg",
-      "/The%20Grove/photo-2.jpg",
-      "/The%20Grove/photo-3.jpg",
+      "/Evergreen%20Mall/photo-1.jpg",
+      "/Evergreen%20Mall/photo-2.jpg",
+      "/Evergreen%20Mall/photo-3.jpg",
+    ],
+  },
+
+  // ── 7599 KING GEORGE ──────────────────────────────────────────────────────
+  {
+    id: "7599-king-george",
+    name: "7599 King George",
+    location: "Surrey, BC",
+    type: "Commercial / Industrial",
+    size: "Commercial Facility",
+    year: "",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "7599 King George Blvd, Surrey, BC",
+    anchor: "Commercial · Industrial",
+
+    img: "/7599%20King%20George/photo-1.jpg",
+
+    description:
+      "Commercial and industrial facility at 7599 King George Boulevard in Surrey, BC, offering flexible space for business operations with excellent access to major routes.",
+
+    overview:
+      "7599 King George is a commercial and industrial property developed by West Fraser Developments, located on King George Boulevard in Surrey. The facility offers flexible space for a range of commercial and industrial uses, with convenient access to major transportation corridors throughout Metro Vancouver.",
+
+    features: [
+      "Commercial and industrial space",
+      "Flexible layout configurations",
+      "King George Boulevard frontage",
+      "Convenient highway access",
+    ],
+
+    gallery: [
+      "/7599%20King%20George/photo-1.jpg",
+      "/7599%20King%20George/photo-2.jpg",
+      "/7599%20King%20George/photo-3.jpg",
+    ],
+  },
+
+  // ── WEST FRASER BUSINESS CENTRE ───────────────────────────────────────────
+  {
+    id: "west-fraser-business-centre",
+    name: "West Fraser Business Centre",
+    location: "Surrey, BC",
+    type: "Industrial / Warehouse",
+    size: "Commercial Park",
+    year: "2024",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "Surrey, BC",
+    anchor: "Industrial · Warehouse · Flex Space",
+
+    description:
+      "A modern industrial and warehouse business centre providing flexible commercial space for growing businesses. Strategically located in Surrey with excellent highway and transit access.",
+
+    overview:
+      "West Fraser Business Centre is a modern industrial and warehouse development providing flexible commercial space designed for today's growing businesses. The park offers a range of unit configurations — from smaller flex units to large-format warehouse bays — all featuring high ceilings, grade and dock loading, and ample yard space. Strategically located in Surrey with direct access to major highways, the centre is ideal for distribution, light manufacturing, and commercial operations.",
+
+    features: [
+      "Modern industrial and warehouse units",
+      "Flexible unit configurations available",
+      "High clear ceilings",
+      "Grade and dock loading doors",
+      "Ample truck court and yard space",
+      "Excellent highway and transit access",
+      "Surrey location — central to Metro Vancouver",
+    ],
+  },
+
+  // ── 13070 115 AVE ─────────────────────────────────────────────────────────
+  {
+    id: "13070-115-ave",
+    name: "13070 115 Ave",
+    location: "Surrey, BC",
+    type: "Commercial / Industrial",
+    size: "Commercial Facility",
+    year: "2007",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "13070 115 Ave, Surrey, BC",
+    anchor: "Commercial · Industrial",
+
+    // Card thumbnail
+    img: "https://westfraserdev.ca/wp-content/uploads/2021/12/tr4.jpg",
+
+    // Short description (listing card)
+    description:
+      "Commercial facility at 13070 115 Ave in Surrey, BC, offering purpose-built space for commercial and industrial operations.",
+
+    // Full description (detail page)
+    overview:
+      "13070 115 Ave is a commercial and industrial property developed by West Fraser Developments in Surrey, BC. The facility is purpose-built to support commercial and industrial operations, with flexible configurations and strong access to the surrounding road network.",
+
+    features: [
+      "Purpose-built commercial and industrial facility",
+      "Flexible space configurations",
+      "Surrey location with highway access",
+    ],
+
+    gallery: [
+      "https://westfraserdev.ca/wp-content/uploads/2021/12/tr4.jpg",
+      "https://westfraserdev.ca/wp-content/uploads/2021/11/Warehouse_High_res_002.jpg",
+      "https://westfraserdev.ca/wp-content/uploads/2021/11/evergreen-mall-5.png",
+    ],
+  },
+
+  // ── 85 SCHOONER ───────────────────────────────────────────────────────────
+  {
+    id: "85-schooner",
+    name: "85 Schooner",
+    location: "Coquitlam, BC",
+    type: "Industrial / Warehouse",
+    size: "Commercial Facility",
+    year: "2001",
+    status: "OPEN",
+    statusColor: "bg-green-700",
+    address: "85 Schooner St, Coquitlam, BC",
+    anchor: "Industrial · Commercial",
+
+    // Card thumbnail
+    img: "/85%20Schooner/photo-1.jpg",
+
+    // Short description (listing card)
+    description:
+      "Commercial and industrial facility at 85 Schooner Street, offering flexible space for business operations.",
+
+    // Full description (detail page)
+    overview:
+      "85 Schooner is a commercial and industrial property developed by West Fraser Developments. The facility offers flexible space suitable for a range of commercial and industrial uses, with convenient access to major transportation routes.",
+
+    features: [
+      "Commercial and industrial space",
+      "Flexible layout configurations",
+      "Convenient highway access",
+    ],
+
+    // Gallery photos — first image is the hero (spans 2 cols)
+    gallery: [
+      "/85%20Schooner/photo-1.jpg",
+      "/85%20Schooner/photo-2.jpg",
+      "/85%20Schooner/photo-3.jpg",
     ],
   },
 

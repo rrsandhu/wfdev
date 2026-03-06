@@ -168,7 +168,7 @@ export const projects: Project[] = [
     neighbourhood: "Surrey City Centre",
     type: "Condominiums",
     units: "115 Suites",
-    year: "2022",
+    year: "2026",
     priceFrom: "Register Now",
     status: "UNDER CONSTRUCTION",
     statusColor: "bg-amber-600",

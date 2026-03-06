@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -34,8 +35,14 @@ export default function CareersPage() {
 
       {/* Hero */}
       <section className="relative h-[50vh] md:h-[60vh] flex items-center overflow-hidden bg-gray-900">
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-slate-700" />
-        <div className="absolute inset-0 bg-black/30" />
+        <Image
+          src="/careers-1.jpg"
+          alt="Careers at West Fraser Developments"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/55" />
         <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 w-full">
           <p className="text-xs uppercase tracking-[0.3em] text-white/50 mb-5">
             West Fraser Developments · Careers
@@ -62,7 +69,7 @@ export default function CareersPage() {
             </div>
             <div className="pt-2">
               <p className="text-gray-500 text-lg leading-relaxed">
-                West Fraser Developments has been building Metro Vancouver for over 50 years. That means
+                West Fraser Developments has been building Metro Vancouver for over 30 years. That means
                 we've also been building careers — and we take both seriously. Our team
                 is collaborative, driven, and genuinely proud of the work we do. Whether
                 you're early in your career or a seasoned industry professional, you'll
@@ -92,10 +99,10 @@ export default function CareersPage() {
             candidates on file for future opportunities.
           </p>
           <a
-            href="mailto:info@wfdev.ca"
+            href="/customer-service"
             className="inline-block bg-white text-gray-900 px-10 py-4 text-sm font-semibold uppercase tracking-wider hover:bg-gray-100 transition-colors"
           >
-            Email info@wfdev.ca
+            Get in Touch
           </a>
         </div>
       </section>
