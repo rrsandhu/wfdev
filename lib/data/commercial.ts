@@ -44,7 +44,7 @@ export const commercialProperties: CommercialProperty[] = [
     location: "Surrey, BC",
     type: "Mixed-Use Development",
     size: "28,000 sq ft Commercial",
-    year: "",
+    year: "Coming Soon",
     status: "COMING SOON",
     statusColor: "bg-blue-700",
     address: "15622 104 Avenue, Surrey, BC",
