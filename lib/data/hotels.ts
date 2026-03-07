@@ -220,12 +220,12 @@ export const hotels: Hotel[] = [
     ],
   },
 
-  // ── BEST WESTERN PLUS ESTEVAN ─────────────────────────────────────────────
+  // ── BEST WESTERN ESTEVAN ──────────────────────────────────────────────────
   {
     id: "best-western-estevan",
-    name: "Best Western Plus Estevan",
+    name: "Best Western Estevan",
     location: "Estevan, SK",
-    brand: "Best Western Plus",
+    brand: "Best Western",
     rooms: "Full-Service Hotel",
     year: "2014",
     address: "Estevan, SK",
@@ -237,10 +237,10 @@ export const hotels: Hotel[] = [
       "Guest satisfaction first — reflected in amenities, beautifully decorated facilities, and reasonable rates in Estevan, Saskatchewan.",
 
     overview:
-      "Best Western Plus Estevan Inn & Suites is a premium full-service hotel serving one of Saskatchewan's most economically active cities — home to significant oil and gas, mining, and agricultural industries. The property prioritizes guest satisfaction with beautifully appointed rooms, modern amenities, and competitive rates that appeal to both business and leisure travellers. Its thoughtful design and attentive service have made it the preferred accommodation choice in Estevan.",
+      "Best Western Estevan Inn & Suites is a premium full-service hotel serving one of Saskatchewan's most economically active cities — home to significant oil and gas, mining, and agricultural industries. The property prioritizes guest satisfaction with beautifully appointed rooms, modern amenities, and competitive rates that appeal to both business and leisure travellers. Its thoughtful design and attentive service have made it the preferred accommodation choice in Estevan.",
 
     features: [
-      "Full-service Best Western Plus hotel",
+      "Full-service Best Western hotel",
       "Beautifully appointed rooms and suites",
       "Indoor pool and waterslide",
       "Fitness centre",
