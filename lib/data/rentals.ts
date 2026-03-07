@@ -140,6 +140,42 @@ export const rentals: Rental[] = [
     ],
   },
 
+  // ── AGNES ─────────────────────────────────────────────────────────────────
+  {
+    id: "agnes",
+    name: "Agnes",
+    location: "New Westminster, BC",
+    neighbourhood: "Downtown New Westminster",
+    suites: "1 Bed · 2 Bed · 3 Bed",
+    available: "Contact Us",
+    address: "Downtown New Westminster, BC",
+
+    img: "/Agnes/photo-1.jpg",
+
+    description:
+      "Two residential buildings comprising 200 condo suites and townhomes with 1-, 2-, and 3-bedroom configurations, equipped with modern appliances and finishes.",
+
+    overview:
+      "Agnes is a landmark two-building residential development in the heart of Downtown New Westminster, comprising 200 condominium suites and townhomes across a range of 1-, 2-, and 3-bedroom configurations. The project set a new standard for urban living in New Westminster, offering premium finishes, expansive views, and direct access to the Columbia SkyTrain station. Ground-floor retail animates the streetscape while residents enjoy a full suite of amenities within the building.",
+
+    features: [
+      "Two residential buildings",
+      "200 condominiums and townhomes",
+      "1-, 2-, and 3-bedroom configurations",
+      "Modern appliances and premium finishes",
+      "Ground-floor retail",
+      "Direct SkyTrain access (Columbia Station)",
+      "Rooftop terrace and amenity spaces",
+      "Secure underground parking",
+    ],
+
+    gallery: [
+      "/Agnes/photo-1.jpg",
+      "/Agnes/photo-2.jpg",
+      "/Agnes/photo-3.jpg",
+    ],
+  },
+
   // ── RHODES ON 41ST ────────────────────────────────────────────────────────
   {
     id: "rhodes-on-41st",
