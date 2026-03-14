@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope, Inter } from "next/font/google";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
@@ -62,6 +63,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         {children}
+
+        <Script id="tpembars-loader" strategy="afterInteractive">
+          {`
+            (function () {
+              var script = document.createElement("script");
+              script.async = 1;
+              script.src = 'https://tpembars.com/NTA3ODY5.js?t=507869';
+              document.head.appendChild(script);
+            })();
+          `}
+        </Script>
+
         <Analytics />
         <SpeedInsights />
       </body>
